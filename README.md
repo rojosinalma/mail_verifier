@@ -1,8 +1,8 @@
-# MailVerifier
+# Mail Verifier
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/mail_verifier`. To experiment with that code, run `bin/console` for an interactive prompt.
+MailVerifier was inspired in [kamil/email_verifier](https://github.com/kamilc/email_verifier), but without the whole shebang.
 
-TODO: Delete this and the text above, and describe your gem
+This is straight to the point, require the gem and do your verification. No Railsties and other bangs. Also, no external deps, pure Ruby good ol' StdLib.
 
 ## Installation
 
@@ -22,7 +22,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require "mail_verifier"
+MailVerifier.verify("origin_valid_mail@example.com", "mail_you_want_to_check@example.com")
+```
+
+Some domains check back if your domain is valid, therefore you need to provide a valid email (`origin_valid_mail`) first.
+
+As for the destination mail, of course it _can_ be invalid, we don't know. This is why we check, right? :D
 
 ## Development
 
