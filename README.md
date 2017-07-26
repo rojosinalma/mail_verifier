@@ -2,7 +2,9 @@
 
 MailVerifier was inspired in [kamil/email_verifier](https://github.com/kamilc/email_verifier), but without the whole shebang.
 
-This is straight to the point, require the gem and do your verification. No Railsties and other bangs. Also, no external deps, pure Ruby good ol' StdLib.
+This is straight to the point, require the gem and do your verification. No Railsties and other bangs.
+
+Also, **no external dependencies**, pure good ol' Ruby Standard Library.
 
 ## Installation
 
