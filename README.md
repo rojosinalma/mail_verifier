@@ -1,4 +1,7 @@
 # Mail Verifier
+[![Maintainability](https://api.codeclimate.com/v1/badges/49c77c86fcd8c99f28d7/maintainability)](https://codeclimate.com/github/elfenars/mail_verifier/maintainability)
+[![Dependency Status](https://gemnasium.com/badges/github.com/elfenars/mail_verifier.svg)](https://gemnasium.com/github.com/elfenars/mail_verifier)
+[![Gem Version](https://badge.fury.io/rb/mail_verifier.svg)](https://badge.fury.io/rb/mail_verifier)
 
 MailVerifier was inspired in [kamil/email_verifier](https://github.com/kamilc/email_verifier), but without the whole shebang.
 
